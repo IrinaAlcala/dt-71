@@ -6,9 +6,10 @@ btn.addEventListener('click', function(evt) {
     document.querySelector('ul').appendChild(li)
  });
 
- document.querySelector('ul')
+document.querySelector('ul')
    .addEventListener('click', handleClick);
  
- function handleClick(evt) {
-   console.log(evt);
- }
+function handleClick(e) { 
+    console.log(e.target)    
+    e.target.style.color = 'red'
+ } 
