@@ -14,7 +14,7 @@ var winningCombos = [
   [2, 5, 8],
   [0, 4, 8],
   [2, 4, 6]
-];
+];bo
 
 /*----- app's state (variables) -----*/
 var board, turn, winner
