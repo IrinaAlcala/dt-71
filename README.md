@@ -11,6 +11,7 @@ This will be your shared class repo! Guides, in-class labs and code samples, and
 - Contact Information
 - Course Information and Dates
 - Immersive Graduation Requirements
+- [Quick Links & Recordings](#class-lessons-recordings)
 
 ### Repo Structure
 
@@ -201,9 +202,9 @@ These coding challenges start with day 1 and will continue through week 8 (exclu
 
 | Role                    | Name                | Slack                | Email                                |
 | :---------------------- | :------------------ | :------------------- | :----------------------------------- |
-| Lead Instructor         | Greg Santos         | @gregsantos          | greg.santos@generalassemb.ly         |
+| Lead Instructor         | Madeline O'Moore (Temp Remote Instructor)  | @madeline.omoore          | madeline.omoore@generalassemb.ly         |
 | Instructional Associate | Michael Christenson | @michael.christenson | michael.christenson@generalassemb.ly |
-| Instructional Associate | Milcah Centeno | @milcah.centeno | milcah.centeno@generalassemb.ly |
+| Instructional Associate | Milcah Centeno (Temp IA) | @milcah.centeno | milcah.centeno@generalassemb.ly |
 
 ### Course Information
 
@@ -231,3 +232,15 @@ When you complete our program with passing status, you unlock our alumni perks:
 ### Welcome!
 
 <img src="https://media.giphy.com/media/OF0yOAufcWLfi/giphy.gif" width="900">
+
+
+## Class Lessons and Recordings
+###### #class-lessons-recordings
+
+All course recordings will be linked below as well as quick links to that days markdown files and exercises. Recordings will be posted witin 12 - 24 hours of that class ending.
+
+| Day | Lectures | Labs | Homework | Recording |
+|:---:|:-----------:|:-------:|:-----------:|:-----------:|
+| w02d1 |[Intro to HTML](https://git.generalassemb.ly/SEI/dt-71/blob/master/units/1_front_end_devlopment/w01/d5/01-intro-to-html.md), [Intro to CSS](https://git.generalassemb.ly/SEI/dt-71/blob/master/units/1_front_end_devlopment/w01/d5/02-intro-to-css.md), [How to Build a Browser Game](https://git.generalassemb.ly/SEI/dt-71/blob/master/units/1_front_end_devlopment/w01/d5/03-04-guide-to-building-a-browser-game.md) | [CSS Diner (CSS Selector Practice)](https://flukeout.github.io/), [Build a Game Together](https://git.generalassemb.ly/SEI/holeman-game) | [JS Code Challenges](https://git.generalassemb.ly/SEI/js-code-challenges), [Holeman Game (Optional)](https://git.generalassemb.ly/SEI/holeman-game), [Tic-Tac-Toe Game](https://git.generalassemb.ly/SEI/dt-71/tree/master/units/1_front_end_devlopment/w01/d5/tic-tac-toe-weekend) | [Intro to HTML](https://generalassembly.zoom.us/recording/detail?meeting_id=vvrVvo3pSR%2BJ3ub2NL7Vaw%3D%3D) |
+| w02d2 |[Intro to Flexbox and CSS Grid](https://git.generalassemb.ly/SEI/dt-71/blob/master/units/1_front_end_devlopment/w02/d1/01-css-flexbox-grid.md), [Responsive Web Design](https://git.generalassemb.ly/SEI/dt-71/blob/master/units/1_front_end_devlopment/w02/d1/03-responsive-design.md) | [Flexbox / CSS Grid Lab](https://git.generalassemb.ly/SEI/dt-71/blob/master/units/1_front_end_devlopment/w02/d1/02-flexbox-grid-lab.md), [Resonsive Design Lab](https://git.generalassemb.ly/SEI/dt-71/blob/master/units/1_front_end_devlopment/w02/d1/04-responsive-design-lab.md) | [JS Code Challenges](https://git.generalassemb.ly/SEI/js-code-challenges), [Flexbox Froggy (Optional)](https://flexboxfroggy.com/), [CSS Grid Garden (Optional)](https://cssgridgarden.com//) | [Recording]() |
+| w02d3 | [JS Callbacks](https://git.generalassemb.ly/SEI/dt-71/blob/master/units/1_front_end_devlopment/w02/d2/01-js-callbacks.md), [JS Classes](https://git.generalassemb.ly/SEI/dt-71/blob/master/units/1_front_end_devlopment/w02/d2/03-js-classes.md), [Intro to Project 1 Requirements](https://git.generalassemb.ly/SEI/dt-71/tree/master/projects/project_1) | [JS Callbacks Lab](https://git.generalassemb.ly/SEI/dt-71/blob/master/units/1_front_end_devlopment/w02/d2/02-js-callbacks-lab.md), [JS Classes Lab](https://git.generalassemb.ly/SEI/dt-71/blob/master/units/1_front_end_devlopment/w02/d2/04-js-classes-lab.md) | [JS Code Challenges](https://git.generalassemb.ly/SEI/js-code-challenges), [JS Classes Lab](https://git.generalassemb.ly/SEI/dt-71/blob/master/units/1_front_end_devlopment/w02/d2/04-js-classes-lab.md), [Choosing, Wireframing, and Pseudocoding Your Project 1 Game (Deliverable)](https://git.generalassemb.ly/SEI/dt-71/tree/master/projects/project_1) | [Recording]()

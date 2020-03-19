@@ -33,7 +33,7 @@
 ---
 ### Setup
 
-- For this lesson, we'll be using [repl.it](https://repl.it) to learn about Flexbox & CSS Grid.
+- For this lesson, we will ask you to create a `student_examples/flexbox_and_grid` folder inside of todays folder.
 
 - Please create a new **HTML, CSS, JS** Repl in your account.
 

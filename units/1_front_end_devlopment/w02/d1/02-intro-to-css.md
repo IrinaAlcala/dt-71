@@ -141,7 +141,7 @@ VS Code already has a utility, _Emmet_, that allows us to just type `!`, followe
   <title>Document</title>
 </head>
 <body>
-  <h1>WDI Rocks!</h1>
+  <h1>SEI Rocks!</h1>
 </body>
 </html>
 ```
