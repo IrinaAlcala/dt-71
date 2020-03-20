@@ -66,7 +66,14 @@ const peopleFirstLastName = people.map(human => human.split(",").reverse().join(
   // Array.prototype.reduce()
   // 7. Count the number of instances for each of the data items.
   // Hint:  Return an object where the keys are 'car', 'truck', etc. and the values are the count.
-  
+
+const newDataOBj = data.reduce(function(accobj, vehicle) {
+  accobj[vehicle] = accobj[vehicle] ? accobj[vehicle] + 1 : 1;
+  return accobj;
+}, {})
+
+console.log(newDataOBj);
+
 const dataTypeObj = {
   car: data.filter(vehicle => vehicle === 'car').length,
   truck: data.filter(vehicle => vehicle === 'truck').length,
@@ -75,7 +82,6 @@ const dataTypeObj = {
   van: data.filter(vehicle => vehicle === 'van').length
 }
 
-console.log(dataTypeObj);
 
   
   const devs = [
@@ -116,4 +122,34 @@ console.log(dataTypeObj);
   
   const idxOfId123523 = comments.findIndex(instance => instance.id = 123523);
 
-  
+  //
+
+  class Pet {
+    constructor(name, owner) {
+      this.name = name;
+    }
+    walk() {
+      console.log("walka walka")
+    }
+  };
+
+  class Dog extends Pet {
+    constructor(name, owner) {
+      super(name, owner);
+      this.price = 20
+    }
+    bark() {
+      console.log("bark")
+    }
+    chaseTail() {
+      console.log("oh boy oh boy oh boy")
+    }
+    getPrice() {
+      return this.price
+    }
+  }
+
+  const peter = new Dog("Peter")
+  console.log(peter)
+  console.log(peter.getPrice) 
+ 
