@@ -20,6 +20,7 @@ This will be your shared class repo! Guides, in-class labs and code samples, and
     /computer_science
     /projects
     /resources
+    	deliverable-schedule.md
     /units
       /1_front_end_development
           /week01
