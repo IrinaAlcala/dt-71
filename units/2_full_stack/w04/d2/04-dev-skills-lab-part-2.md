@@ -20,7 +20,7 @@ This lab builds upon the `express-dev-skills` project you created in the _My Dev
 
 ## Exercises
 
-The goal of the lab is to do put in a rep doing everything that you did during the _Express - Middleware_ lesson by adding the following functionality to the `express-dev-skills` project:
+The goal of the lab is to in reps doing everything that you did during the _Express - Middleware_ lesson by adding the following functionality to the `express-dev-skills` project:
 
 1. Display an _Add Skill_ link on the **index** view that when clicked, displays a **new** view that displays a form for entering a new Dev Skill.
 
