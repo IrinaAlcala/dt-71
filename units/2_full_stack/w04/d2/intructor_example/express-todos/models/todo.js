@@ -8,6 +8,11 @@ const getAll = () => {
   return todos;
 }
 
+const getOne = (id) => {
+  return todos[id];
+}
+
 module.exports = {
-  getAll
+  getAll,
+  getOne
 };
