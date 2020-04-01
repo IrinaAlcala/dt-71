@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.dev-skills {
+  background-color: #6fff4f;
+  text-align: center;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  font-size: 15px;
+  display: block;
+  color: #f5a442;
+}
+
+section {
+  justify-content: space-between;
+  display: flex;
+}
