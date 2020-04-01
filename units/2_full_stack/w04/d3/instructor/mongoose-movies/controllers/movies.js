@@ -31,7 +31,9 @@ const create = (req, res) => {
 }
 
 const index = (req, res) => {
-  res.render('movies/index');
+  Movie.find({}, (err, movies) => {
+    res.render('movies/index', { movies });
+  });
 }
 
 module.exports = {
