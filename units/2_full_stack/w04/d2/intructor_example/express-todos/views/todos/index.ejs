@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Express To-Do</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Todos</h1>
+
+    <ul>
+      <% todos.forEach( (t, idx) => { %>
+        <li>
+          <a href="/todos/<%= idx %>">
+            <%= t.todo %>
+          </a>
+          - 
+          <%= t.done ? 'done' : 'not done' %>
+        </li>
+      <% }); %>
+    </ul>
+  </body>
+</html>
