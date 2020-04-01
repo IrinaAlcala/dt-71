@@ -30,7 +30,12 @@ const create = (req, res) => {
   
 }
 
+const index = (req, res) => {
+  res.render('movies/index');
+}
+
 module.exports = {
+  index,
   create,
   new: newMovie
 }
