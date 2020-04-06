@@ -21,7 +21,16 @@ router.get('/', function(req, res, next) {
     options,
     (err, response, body) => {
       const userData = JSON.parse(body);
-      res.render('index', { userData } );
+      options.url = userData.repos_url;
+
+      // Make another request
+      request(
+        options,
+        (err, response, body) => {
+          userData.repos = JSON.parse(body);
+          res.render('index', { userData });
+        }
+      );
     }
   );
 
