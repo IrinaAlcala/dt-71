@@ -10,9 +10,10 @@ router.get('/', function(req, res, next) {
   const username = req.query.username;
 
   const options = {
-    url: `${rootURL}/users/${username}?access_token=${accessToken}`,
+    url: `${rootURL}/users/${username}`,
     headers: { 
-      'User-Agent': 'fredngo'
+      'User-Agent': 'fredngo',
+      Authorization: `token ${accessToken}`
     }
   };
   
