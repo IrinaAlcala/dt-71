@@ -220,7 +220,7 @@
 
 	```js
 	router.get('/', function(req, res, next) {
-	  const userName = req.query.username;
+	  const username = req.query.username;
   	  console.log(`username: ${username}`);
   	  res.render('index');
 	});
@@ -341,8 +341,10 @@
 - Now let's hit the API again but this time providing our token in a query string like this:
 
 	```
-	$ curl -i https://api.github.com/?access_token=1a1596cfe44...
+	$ curl -i https://api.github.com/\?access_token=1a1596cfe44...
 	```
+
+- Note that the `?` character will have to be escaped, or you might get an `zsh: no matches found: https://api.github.com/...` error
 
 - Inspect the limits in the headers and you'll notice that we each personally have 5000 requests available - and no more sharing!
 
