@@ -20,8 +20,8 @@ router.get('/', function(req, res, next) {
   request(
     options,
     (err, response, body) => {
-      console.log(body);
-      res.render('index');
+      const userData = JSON.parse(body);
+      res.render('index', { userData } );
     }
   );
 
