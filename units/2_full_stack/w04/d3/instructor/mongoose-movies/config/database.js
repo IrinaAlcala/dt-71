@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
+const DATABASE_URL = process.env.DATABASE_URL
 
 mongoose.connect(
-  'mongodb://localhost/movies',
+  DATABASE_URL,
   {
     useNewUrlParser: true,
     useCreateIndex: true,

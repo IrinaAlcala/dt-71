@@ -3,7 +3,7 @@ const router = express.Router();
 const request = require('request');
 
 const rootURL = 'https://api.github.com';
-const accessToken = "xxx" // BAD!!!
+const accessToken = process.env.GITHUB_TOKEN;
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
