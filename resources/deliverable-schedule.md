@@ -18,3 +18,4 @@ It is a requirement to complete at least **80%** of the following to to receive:
 |Fri 3/20|[5. jQuery "My Developer Skills" Lab](https://git.generalassemb.ly/SEI/dt-71/blob/master/units/1_front_end/w02/d5/04-jquery-lab.md)| Fri 3/27 |
 |Tue 3/31|[6. Express "Dev Skills" Lab - Part 2](https://git.generalassemb.ly/SEI/dt-71/blob/master/units/2_full_stack/w04/d2/04-dev-skills-lab-part-2.md)| Tue 4/07 |
 |Fri 4/03|[7. Mongoose "Flights" Lab - Part 3](https://git.generalassemb.ly/SEI/dt-71/blob/master/units/2_full_stack/w04/d5/mongoose-flights-lab-part-3.md)| Fri 4/10 |
+| Wed 4/08 | [8. Producing an API](https://git.generalassemb.ly/SEI/dt-71/blob/master/units/2_full_stack/w05/d3/02-producing-api-lab/producing-api-lab.md) | Wed 4/15 |
